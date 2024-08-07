@@ -1,0 +1,79 @@
+/* Wrapper */
+
+#wrapper {
+    background-image: url("../multimedia/img/profile_bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    width: 50%;
+
+    background: rgba(192, 192, 192, 0.534);
+    border-radius: 5px;
+}
+
+main * {
+    color: black;
+}
+
+/* Table */
+
+table {
+    height: 100%;
+}
+
+/* User's profile picture buttons */
+
+input[type="file"] {
+    padding: 5px 10px;
+    margin: 0;
+    background-color: rgb(68, 89, 134);
+    color: white;
+  
+    border: none;
+    cursor: pointer;
+}
+
+.picbtn {
+    padding: 16px 20px;
+    margin: 0,0,10px,0;
+    background-color: rgb(68, 134, 71);
+    color: white;
+  
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* Input fields */
+
+input {
+    padding: 10px;
+    margin: 4px 0 20px 0;
+    
+    width: 100%;
+  
+    border: none;
+    background: #e4e4e4d2;
+}
+
+/* Horizontal Rule */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}

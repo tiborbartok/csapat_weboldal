@@ -1,0 +1,20 @@
+main {
+    height: 92%;
+}
+
+#main_content {
+    padding: 20px 35px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    padding-top: 2%;
+    font-size: 20px;
+}
+

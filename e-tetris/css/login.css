@@ -1,0 +1,70 @@
+/* Wrapper */
+
+#wrapper {
+    background-image: url("../multimedia/img/logandreg_bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+/* Main */
+
+main {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    width: 50%;
+
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 5px;
+}
+
+main * {
+    color: black;
+}
+
+/* Form container */
+.container {
+    padding: 16px;
+}
+
+/* Input fields */
+input {
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    
+    width: 100%;
+  
+    border: none;
+    background: #ffffff;
+}
+
+/* Horizontal Rule */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Login button */
+.loginbtn {
+    padding: 16px 20px;
+    margin: 8px 0;
+    background-color: rgb(74, 197, 80);
+    color: white;
+  
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* On hover, change the opacity of button */
+.loginbtn:hover {
+    opacity:1;
+}
+
+.container {
+    padding: 16px;
+}

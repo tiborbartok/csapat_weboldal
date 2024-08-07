@@ -1,0 +1,123 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+}
+
+/* POSITIONING */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerH {
+    display: flex;
+    justify-content: center;
+}
+
+.centerV {
+    display: flex;
+    align-items: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+/* WRAPPER */
+
+#wrapper {
+    background-image: url(../multimedia/img/index_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+/* NAV */
+
+nav {
+    height: 8%;
+    padding: 0% 2%;
+
+    /* NAV STICKY */
+    position: sticky;
+    top: 0;
+
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 1.2vw;
+
+    /* CENTER VERTICALLY */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+    
+    z-index: 1;
+}
+
+/* LOGO */
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+#logo img {
+    margin-right: 5px;
+    max-width: 1.5vw;
+    height: auto;
+}
+
+/* BAR */
+
+#menu {
+    display: flex;
+    font-size: 1.1vw;
+}
+#menu a {
+    margin: 0 6px;
+    padding: 4px 10px;
+    
+    text-decoration: none;
+    transition: 0.4s;
+}
+/* STYLE LINK EFFECTS */
+#menu a.active, a:hover{
+    background: rgb(197, 74, 74);
+    border-radius: 4px;
+}
+
+#out {
+    color: rgb(255, 255, 255);
+}
+
+#out:hover {
+    background: rgb(33, 74, 122);
+    border-radius: 4px;
+}
+
+/* Errors */
+
+.errors{
+    width: 50%;
+    margin: 1% auto;
+    padding: 10px 0;
+
+    font-weight: bold;
+    background-color: rgba(197, 74, 74);
+    border-radius: 10px;
+}

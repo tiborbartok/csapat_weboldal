@@ -1,0 +1,52 @@
+/* Wrapper */
+
+#wrapper {
+    background-image: url("../multimedia/img/shop_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+/* section div */
+
+article {
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%, -50%);
+}
+article div {
+    width: 92vh;
+    margin: 5px;
+    padding: 10px;
+    background: rgba(49, 44, 44, 0.904);
+    border-radius: 5px;
+    text-align: center;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: row;
+    
+}
+section div {
+    margin: 10px;
+    padding: 25px;
+    background: rgba(49, 44, 44, 0.904);
+    border-radius: 10px;
+    text-align: center;
+}
+section div img {
+    height: 180px;
+    width: 300px;
+}
+
+section div a {
+    text-decoration: none;
+    color: white;
+}

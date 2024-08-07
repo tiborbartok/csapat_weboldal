@@ -1,0 +1,64 @@
+/* WRAPPER */
+
+#wrapper {
+    background-image: url("../multimedia/img/wins_bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    margin-top: 5vh;
+    color: white;
+}
+
+/* MAIN'S TABLE */
+
+h2 {
+    margin: 0 auto;
+    padding: 1% 0;
+    margin-bottom: 1%;
+
+    width: 50%;
+
+    text-decoration: underline;
+    color: rgb(255, 233, 233);
+
+    background-color: rgba(158, 64, 64, 0.25);
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* LOWER PART'S TABLE */
+
+table {
+    width: 60vw;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+caption {
+    margin: 2% 0;
+    font-size: 30px;
+}
+
+th,td{
+    text-align: center;
+    border: 1px solid rgba(248, 248, 248, 0.726);
+    padding:10px;
+}
+
+
+th {
+    background-color: rgba(0, 0, 0, 0.479);
+    border: 2px solid rgba(248, 248, 248, 0.726);
+}
+
+.winner{
+    background-color: rgba(194, 177, 82, 0.705);
+}
+
+
